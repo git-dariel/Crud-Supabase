@@ -19,7 +19,7 @@ export default function Hero() {
   const [task, setTask] = useState("");
   const [views, setViews] = useState<any[]>([]);
 
-  //Createa new Task
+  //Create new Task
   const handleAddSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
